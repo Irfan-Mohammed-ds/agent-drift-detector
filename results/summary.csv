@@ -1,0 +1,5 @@
+detector,caught,precision,recall,false_alarms_per_day
+Spend spike (robust z),7/30,0.58,0.23,0.17
+Manifest rule,12/30,1.0,0.4,0.0
+Isolation Forest,21/30,0.57,0.7,0.53
+Combined (any),30/30,0.64,1.0,0.57

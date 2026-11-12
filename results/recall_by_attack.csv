@@ -1,0 +1,6 @@
+attack,Spend spike (robust z),Manifest rule,Isolation Forest,Combined (any)
+bulk_export,0.0,0.0,1.0,1.0
+credential_access,0.0,1.0,0.0,1.0
+intent_drift,0.0,1.0,0.5,1.0
+off_hours_burst,0.17,0.0,1.0,1.0
+spend_spike,1.0,0.0,1.0,1.0

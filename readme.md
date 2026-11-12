@@ -1,6 +1,6 @@
 # Agent Drift Detector
 
-When Varonis announced AI Detection & Response in November 2026, the posts described *what* it flags in AI agent activity: spend spikes, bulk exports, secret access, and agents acting outside their declared purpose. They didn't say *how* you'd decide something is abnormal. That's an anomaly detection problem, which is what I work on day to day at Honeywell, so I spent an afternoon prototyping one way to do it.
+When Varonis announced AI Detection & Response in November 2026, the posts described *what* it flags in AI agent activity: spend spikes, bulk exports, secret access, and agents acting outside their declared purpose. They didn't say *how* you'd decide something is abnormal. I got curious about that gap, so I spent an afternoon working out one way to do it.
 
 **Result:** on simulated agent logs, three simple detectors working together caught **30 of 30** planted attacks at about **0.6 false alarms per day** across 40 users. No single detector caught more than 21 on its own.
 
@@ -62,4 +62,4 @@ python evaluate.py
 
 Results land in `results/`.
 
-*Built by Irfan Mohammed, a data scientist working on anomaly detection and predictive maintenance at Honeywell.*
+*Built by Irfan Mohammed, a data scientist who likes taking problems from the news and figuring out how they'd actually be solved.*
